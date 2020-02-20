@@ -1,10 +1,11 @@
-[
-  {
-    "idpessoa":1,
-    "nome":"Matheus"
-  },
-  {
-    "idpessoa":2,
-    "nome":"Robson"
-  }
-]
+{
+  "pessoas": [
+    { "idpessoa": 1, "nome": "Matheus" },
+    { "idpessoa": 2, "nome": "Robson" },
+    { "idpessoa": 3, "nome": "Nelso" },
+  ],
+  "colaboradores": [
+    { "idcolaborador": 1, "idpessoa": { "idpessoa": 1, "nome": "Matheus" } },
+    { "idcolaborador": 2, "idpessoa": { "idpessoa": 2, "nome": "Robson" } }
+  ]
+}
