@@ -1,5 +1,5 @@
 [
-  pessoas: [
+  "pessoas": [
     {
       "idpessoa":1,
       "nome":"Matheus"
@@ -11,7 +11,7 @@
   ]
 ]
 
-  colaboradores: [
+  "colaboradores": [
     {
       "idcolaborador":1,
       "idpessoa":{
