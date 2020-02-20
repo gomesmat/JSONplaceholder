@@ -1,23 +1,19 @@
 [
-  "pessoas": [
-    {
+  {
+    "idpessoa":1,
+    "nome":"Matheus"
+  },
+  {
+    "idpessoa":2,
+    "nome":"Robson"
+  }
+
+
+  {
+    "idcolaborador":1,
+    "idpessoa":{
       "idpessoa":1,
       "nome":"Matheus"
-    },
-    {
-      "idpessoa":2,
-      "nome":"Robson"
     }
-  ]
-]
-
-  "colaboradores": [
-    {
-      "idcolaborador":1,
-      "idpessoa":{
-        "idpessoa":1,
-        "nome":"Matheus"
-      }
-    }
-  ]
+  }
 ]
