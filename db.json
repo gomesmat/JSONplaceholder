@@ -1,15 +1,482 @@
 {
-  "pessoas": [
-    { "idpessoa": 1, "nome": "Maicão" },
-    { "idpessoa": 2, "nome": "Robson" },
-    { "idpessoa": 3, "nome": "Nelso" },
-    { "idpessoa": 4, "nome": "Zorro" },
-    { "idpessoa": 5, "nome": "Albert" }
-  ],
-  "colaboradores": [
-    { "idcolaborador": 1, "idpessoa": { "idpessoa": 1, "nome": "Maicão" } },
-    { "idcolaborador": 2, "idpessoa": { "idpessoa": 2, "nome": "Robson" } },
-    { "idcolaborador": 3, "idpessoa": { "idpessoa": 4, "nome": "Zorro" } },
-    { "idcolaborador": 4, "idpessoa": { "idpessoa": 5, "nome": "Albert" } }
-  ]
+    "pessoas": [
+        {
+            "idpessoa": 3,
+            "nome": "Caroline Diedrichs",
+            "telefone": "42999021584",
+            "telefone1": null,
+            "endereco": "R. Nigel 40",
+            "email": "carol@emial.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 4,
+            "nome": "Robson Machado",
+            "telefone": "42999024257",
+            "telefone1": null,
+            "endereco": "R. Uiliam 63",
+            "email": "rob@son.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 6,
+            "nome": "João Agostinho",
+            "telefone": "42999796101",
+            "telefone1": null,
+            "endereco": "R. Fernandino 88",
+            "email": "joao@email.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 7,
+            "nome": "Agnes Alegria",
+            "telefone": "42999000701",
+            "telefone1": null,
+            "endereco": "R. Quinze 15",
+            "email": "agnes@email.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 8,
+            "nome": "Alba Alencastro",
+            "telefone": "42999041501",
+            "telefone1": null,
+            "endereco": "R. Perol 52",
+            "email": "alba@email.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 9,
+            "nome": "Brenda Catarina Alvim",
+            "telefone": "42990607001",
+            "telefone1": null,
+            "endereco": "R. Hilda 41",
+            "email": "brenda@email.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 10,
+            "nome": "McDonalds Corporation",
+            "telefone": "+011111117875",
+            "telefone1": null,
+            "endereco": "McDonalds St",
+            "email": "the@mcdonalds.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 11,
+            "nome": "Marcos Vinicius Assis",
+            "telefone": "42995720001",
+            "telefone1": null,
+            "endereco": "R. Juca 31",
+            "email": "marcos@ewmail.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 1,
+            "nome": "Matheus Gomes",
+            "telefone": "42999991234",
+            "telefone1": "",
+            "endereco": "Alameda Sempreverde, 742",
+            "email": "matheus@email.com",
+            "observacoes": "",
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 5,
+            "nome": "Nelso Santos",
+            "telefone": "42994712537",
+            "telefone1": null,
+            "endereco": "R. Mendes 73",
+            "email": "nelso@santos.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 2,
+            "nome": "Eduardo Soares",
+            "telefone": "42999000101",
+            "telefone1": null,
+            "endereco": "R. Alameda 1",
+            "email": "eduardo@email.com",
+            "observacoes": null,
+            "idcidade": {
+                "idcidade": 1,
+                "nome": "Ponta Grossa",
+                "uf": "PR"
+            }
+        },
+        {
+            "idpessoa": 72,
+            "nome": "Ccfced",
+            "telefone": "444444",
+            "telefone1": "444444",
+            "endereco": "daw",
+            "email": "a@ma",
+            "observacoes": "null",
+            "idcidade": {
+                "idcidade": 4,
+                "nome": "Santos",
+                "uf": "SP"
+            }
+        },
+        {
+            "idpessoa": 73,
+            "nome": "dfawed",
+            "telefone": "444444",
+            "telefone1": "444444",
+            "endereco": "daw",
+            "email": "a@ma",
+            "observacoes": "null",
+            "idcidade": {
+                "idcidade": 4,
+                "nome": "Santos",
+                "uf": "SP"
+            }
+        },
+        {
+            "idpessoa": 74,
+            "nome": "dfawed",
+            "telefone": "444444",
+            "telefone1": "444444",
+            "endereco": "daw",
+            "email": "a@ma",
+            "observacoes": "null",
+            "idcidade": {
+                "idcidade": 4,
+                "nome": "Santos",
+                "uf": "SP"
+            }
+        },
+        {
+            "idpessoa": 75,
+            "nome": "dfawed",
+            "telefone": "444444",
+            "telefone1": "444444",
+            "endereco": "daw",
+            "email": "a@ma",
+            "observacoes": "null",
+            "idcidade": {
+                "idcidade": 4,
+                "nome": "Santos",
+                "uf": "SP"
+            }
+        },
+        {
+            "idpessoa": 76,
+            "nome": "dfawed",
+            "telefone": "444444",
+            "telefone1": "444444",
+            "endereco": "daw",
+            "email": "a@ma",
+            "observacoes": "null",
+            "idcidade": {
+                "idcidade": 4,
+                "nome": "Santos",
+                "uf": "SP"
+            }
+        }
+    ],
+    "colaboradores": [
+        {
+            "idcolaborador": 1,
+            "cadastroativo": 1,
+            "datacadastro": "2019-09-16T20:14:32.484484Z",
+            "senha": "usuarioum",
+            "cpf": "96733116847",
+            "nivelprivilegio": 3,
+            "idpessoa": {
+                "idpessoa": 1,
+                "nome": "Matheus Gomes",
+                "telefone": "42999991234",
+                "telefone1": "",
+                "endereco": "Alameda Sempreverde, 742",
+                "email": "matheus@email.com",
+                "observacoes": "",
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcolaborador": 2,
+            "cadastroativo": 1,
+            "datacadastro": "2019-09-16T20:14:33.806882Z",
+            "senha": "usuariodois",
+            "cpf": "93631820534",
+            "nivelprivilegio": 3,
+            "idpessoa": {
+                "idpessoa": 2,
+                "nome": "Eduardo Soares",
+                "telefone": "42999000101",
+                "telefone1": null,
+                "endereco": "R. Alameda 1",
+                "email": "eduardo@email.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcolaborador": 3,
+            "cadastroativo": 1,
+            "datacadastro": "2019-09-16T20:14:36.272909Z",
+            "senha": "usuarioquatro",
+            "cpf": "08333357903",
+            "nivelprivilegio": 1,
+            "idpessoa": {
+                "idpessoa": 4,
+                "nome": "Robson Machado",
+                "telefone": "42999024257",
+                "telefone1": null,
+                "endereco": "R. Uiliam 63",
+                "email": "rob@son.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcolaborador": 4,
+            "cadastroativo": 1,
+            "datacadastro": "2019-09-16T20:14:38.232595Z",
+            "senha": "usuariocinco",
+            "cpf": "67538852697",
+            "nivelprivilegio": 1,
+            "idpessoa": {
+                "idpessoa": 5,
+                "nome": "Nelso Santos",
+                "telefone": "42994712537",
+                "telefone1": null,
+                "endereco": "R. Mendes 73",
+                "email": "nelso@santos.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcolaborador": 5,
+            "cadastroativo": 1,
+            "datacadastro": "2019-09-16T20:14:40.440172Z",
+            "senha": "usuarioonze",
+            "cpf": "19029568267",
+            "nivelprivilegio": 1,
+            "idpessoa": {
+                "idpessoa": 11,
+                "nome": "Marcos Vinicius Assis",
+                "telefone": "42995720001",
+                "telefone1": null,
+                "endereco": "R. Juca 31",
+                "email": "marcos@ewmail.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        }
+    ],
+    "clientes": [
+        {
+            "idcliente": 6,
+            "datacadastro": "2019-09-16T20:17:16.954571Z",
+            "cadastroativo": 1,
+            "cadastroreceita": "02638587000194",
+            "idpessoa": {
+                "idpessoa": 10,
+                "nome": "McDonalds Corporation",
+                "telefone": "+011111117875",
+                "telefone1": null,
+                "endereco": "McDonalds St",
+                "email": "the@mcdonalds.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcliente": 1,
+            "datacadastro": "2019-09-16T20:17:08.257928Z",
+            "cadastroativo": 1,
+            "cadastroreceita": "46341777302",
+            "idpessoa": {
+                "idpessoa": 3,
+                "nome": "Caroline Diedrichs",
+                "telefone": "42999021584",
+                "telefone1": null,
+                "endereco": "R. Nigel 40",
+                "email": "carol@emial.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcliente": 2,
+            "datacadastro": "2019-09-16T20:17:10.689741Z",
+            "cadastroativo": 1,
+            "cadastroreceita": "39579680701",
+            "idpessoa": {
+                "idpessoa": 6,
+                "nome": "João Agostinho",
+                "telefone": "42999796101",
+                "telefone1": null,
+                "endereco": "R. Fernandino 88",
+                "email": "joao@email.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcliente": 3,
+            "datacadastro": "2019-09-16T20:17:12.551619Z",
+            "cadastroativo": 1,
+            "cadastroreceita": "10464024390",
+            "idpessoa": {
+                "idpessoa": 7,
+                "nome": "Agnes Alegria",
+                "telefone": "42999000701",
+                "telefone1": null,
+                "endereco": "R. Quinze 15",
+                "email": "agnes@email.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcliente": 4,
+            "datacadastro": "2019-09-16T20:17:14.240548Z",
+            "cadastroativo": 1,
+            "cadastroreceita": "10028612507",
+            "idpessoa": {
+                "idpessoa": 8,
+                "nome": "Alba Alencastro",
+                "telefone": "42999041501",
+                "telefone1": null,
+                "endereco": "R. Perol 52",
+                "email": "alba@email.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcliente": 5,
+            "datacadastro": "2019-09-16T20:17:15.776872Z",
+            "cadastroativo": 1,
+            "cadastroreceita": "29514462505",
+            "idpessoa": {
+                "idpessoa": 9,
+                "nome": "Brenda Catarina Alvim",
+                "telefone": "42990607001",
+                "telefone1": null,
+                "endereco": "R. Hilda 41",
+                "email": "brenda@email.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcliente": 20,
+            "datacadastro": null,
+            "cadastroativo": null,
+            "cadastroreceita": null,
+            "idpessoa": {
+                "idpessoa": 1,
+                "nome": "Matheus Gomes",
+                "telefone": "42999991234",
+                "telefone1": "",
+                "endereco": "Alameda Sempreverde, 742",
+                "email": "matheus@email.com",
+                "observacoes": "",
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        }
+    ]
 }
