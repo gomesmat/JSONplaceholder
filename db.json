@@ -266,5 +266,47 @@
                 }
             }
         }
+    ],
+    "clientes": [
+        {
+            "idcliente": 6,
+            "datacadastro": "2019-09-16T20:17:16.954571Z",
+            "cadastroativo": 1,
+            "cadastroreceita": "02638587000194",
+            "idpessoa": {
+                "idpessoa": 10,
+                "nome": "McDonalds Corporation",
+                "telefone": "+011111117875",
+                "telefone1": null,
+                "endereco": "McDonalds St",
+                "email": "the@mcdonalds.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        },
+        {
+            "idcliente": 1,
+            "datacadastro": "2019-09-16T20:17:08.257928Z",
+            "cadastroativo": 1,
+            "cadastroreceita": "46341777302",
+            "idpessoa": {
+                "idpessoa": 3,
+                "nome": "Caroline Diedrichs",
+                "telefone": "42999021584",
+                "telefone1": null,
+                "endereco": "R. Nigel 40",
+                "email": "carol@emial.com",
+                "observacoes": null,
+                "idcidade": {
+                    "idcidade": 1,
+                    "nome": "Ponta Grossa",
+                    "uf": "PR"
+                }
+            }
+        }
     ]
 }
