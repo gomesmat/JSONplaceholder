@@ -6,7 +6,7 @@
             "telefone": "42999021584",
             "telefone1": null,
             "endereco": "R. Nigel 40",
-            "email": "carol@emial.com",
+            "email": "carla@emial.com",
             "observacoes": null,
             "idcidade": {
                 "idcidade": 1,
@@ -118,7 +118,7 @@
             "telefone": "42999991234",
             "telefone1": "",
             "endereco": "Alameda Sempreverde, 742",
-            "email": "matheus@email.com",
+            "email": "marcelo@email.com",
             "observacoes": "",
             "idcidade": {
                 "idcidade": 1,
@@ -146,7 +146,7 @@
             "telefone": "42999000101",
             "telefone1": null,
             "endereco": "R. Alameda 1",
-            "email": "eduardo@email.com",
+            "email": "edimar@email.com",
             "observacoes": null,
             "idcidade": {
                 "idcidade": 1,
